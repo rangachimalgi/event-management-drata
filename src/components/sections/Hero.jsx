@@ -5,18 +5,18 @@ const Hero = () => {
 
   const heroItems = [
     { 
-      img: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&h=600&fit=crop', 
-      title: 'Orthopaedic', 
+      img: 'https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&h=600&fit=crop', 
+      title: 'Baby Shower', 
       id: 0 
     },
     { 
-      img: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&h=600&fit=crop', 
-      title: 'Orthopaedic', 
+      img: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&h=600&fit=crop', 
+      title: 'Wedding', 
       id: 1 
     },
     { 
-      img: 'https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=800&h=600&fit=crop', 
-      title: 'Orthopaedic', 
+      img: 'https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800&h=600&fit=crop', 
+      title: 'Engagement', 
       id: 2 
     }
   ];
@@ -31,12 +31,12 @@ const Hero = () => {
         <div className="row align-items-center">
           <div className="col-xl-6">
             <div className="tp-hero-md-content p-relative mb-40">
-              <span className="tp-ff-dm fw-500 fs-20 fs-xs-17 ls-m-3 tp-text-common-white mb-20 d-inline-block">Your Health, Our Priority</span>
+              <span className="tp-ff-dm fw-500 fs-20 fs-xs-17 ls-m-3 tp-text-common-white mb-20 d-inline-block">Creating Unforgettable Experiences</span>
               <h2 className="tp-hero-md-title tp-ff-familjen fs-92 fs-lg-100 fs-md-80 fs-sm-70 fs-xs-50 tp-text-common-white lh-1 ls-m-3 mb-25">
-                Healing  hands caring hearts.
+                Memorable moments.
               </h2>
               <p className="tp-hero-md-para tp-ff-dm fs-24 fs-xl-22 lh-140-per ls-m-3 tp-text-common-white opacity-8 mb-45">
-                We combine advanced medical expertise with genuine<br /> compassion to ensure you receive.
+                We transform your vision into reality with creative excellence and flawless execution.<br /> From intimate gatherings to grand celebrations, we craft unforgettable experiences<br /> that leave lasting impressions on every guest.
               </p>
               <div className="tp-hero-md-btn d-flex align-items-center">
                 <a href="#contact" className="tp-btn-md tp-bg-theme-1 tp-left-right p-relative hover-text-white d-inline-block tp-text-grey-5 lh-1 fs-16 fw-700 tp-ff-dm">
@@ -59,7 +59,7 @@ const Hero = () => {
                   <p className="tp-hero-md-video-text tp-ff-dm lh-110-per mb-0 fw-600 fs-16 tp-text-common-white opacity-8">Watch Our Video</p>
                 </div>
               </div>
-              <img className="tp-hero-md-shape tp-live-anim-spin" src="/assets/img/hero/md/virus.png" alt="" />
+              <img className="tp-hero-md-shape tp-live-anim-spin" src="/assets/img/hero/md/shape.png" alt="" />
             </div>
           </div>
           <div className="col-xl-6 mb-40">
@@ -79,11 +79,11 @@ const Hero = () => {
                     </div>
                     <div className="tp-hero-md-panel-content">
                       <h4 className="tp-hero-md-panel-title mb-15">
-                        <a href="#team" className="underline-black">{item.title} <br />Surgeon</a>
+                        <a href="#portfolio" className="underline-black">{item.title} <br />Events</a>
                       </h4>
                       <div className="tp-hero-md-panel-meta">
-                        <span className="count">15+</span>
-                        <span className="doctor">Doctor</span>
+                        <span className="count">500+</span>
+                        <span className="doctor">Events</span>
                       </div>
                     </div>
                   </div>
