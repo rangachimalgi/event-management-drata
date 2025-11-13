@@ -8,12 +8,21 @@ const Loader = ({ isHiding }) => {
       </svg>
       <div className="loader-wrap-heading">
         <div className="load-text">
-          <span>A</span>
-          <span>L</span>
-          <span>E</span>
+          <span>D</span>
           <span>R</span>
-          <span>i</span>
+          <span>A</span>
+          <span>T</span>
+          <span>A</span>
+          <span> </span>
           <span>C</span>
+          <span>R</span>
+          <span>E</span>
+          <span>A</span>
+          <span>T</span>
+          <span>I</span>
+          <span>O</span>
+          <span>N</span>
+          <span>S</span>
         </div>
       </div>
     </div>

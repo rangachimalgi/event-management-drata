@@ -82,7 +82,7 @@ const Header = ({ onSearchClick, onMenuClick }) => {
                   </div>
                   <div className="tp-header-btn d-none d-sm-inline-block ml-10">
                     <a href="#contact" className="tp-btn-md tp-btn-md-header tp-bg-theme-1 tp-left-right p-relative hover-text-white d-inline-block text-uppercase tp-text-grey-5 lh-1 fs-15 fw-800 tp-ff-dm">
-                      <span className="mr10 td-text d-inline-block mr-5">Appointment</span>
+                      <span className="mr10 td-text d-inline-block mr-5">Enquire Now</span>
                       <span className="tp-arrow-angle">
                         <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M1 11L12 1M12 1H3.44444M12 1V8.77778" stroke="#F3F1F2" strokeWidth="1.5" strokeLinecap="round" />
