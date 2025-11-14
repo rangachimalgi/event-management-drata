@@ -33,7 +33,7 @@ const About = () => {
           alt=""
         />
       </div>
-      <h2 className="tp-about-md-bigtext fw-600 tp-ff-familjen ls-m-4 tp-item-anime-md marque d-none d-lg-block">Medical</h2>
+      <h2 className="tp-about-md-bigtext fw-600 tp-ff-familjen ls-m-4 tp-item-anime-md marque d-none d-lg-block">Drata</h2>
       <div className="container">
         <div className="col-lg-12">
           <div className="tp-about-md-title-wrap mb-65">
@@ -44,18 +44,17 @@ const About = () => {
           <div className="tp-about-md-content ml-90 mr-85">
             <div className="tp_fade_anim" data-delay=".3">
               <p className="tp-ff-dm fs-18 lh-150-per ls-m-3 tp-text-grey-2 mb-30">
-                At our medical center, we are committed to delivering high-quality, compassionate healthcare to<br />
-                every patient we serve. With a team of experienced doctors, advanced technology, and a patient-first
-                approach, we ensure that your health is always in trusted hands. From <span className="fw-500 tp-text-common-white">Routine check-ups to specialized</span>
-                treatments, we offer personalized care designed to meet your unique needs.
+                Based in Bangalore, Drata Creations is your trusted partner in crafting extraordinary moments that last a lifetime.<br />
+                We specialize in creating unforgettable experiences for weddings, engagements, baby showers, house warming ceremonies, and more.
+                With a passion for perfection and an eye for detail, we transform your vision into reality. From <span className="fw-500 tp-text-common-white">Intimate gatherings to grand celebrations</span>,
+                we bring creativity, elegance, and flawless execution to every event we plan.
               </p>
             </div>
             <div className="tp_fade_anim" data-delay=".5">
               <p className="tp-ff-dm fs-18 lh-150-per ls-m-3 tp-text-grey-2 mb-75">
-                Your wellness is our mission — and every step we take is focused on helping you live a healthier, happier
-                life. With a dedicated team of highly qualified doctors, nurses, and healthcare professionals, we combine
-                modern medical technology with a <span className="fw-500 tp-text-common-white">Compassionate approach to patient care.</span> Every member of our
-                staff is focused on listening to your concerns, understanding your needs,
+                Our mission is to make every celebration memorable and stress-free. With a dedicated team of experienced event planners, designers, and coordinators,
+                we combine innovative ideas with <span className="fw-500 tp-text-common-white">Meticulous attention to detail and personalized service.</span> Every event is unique, and we ensure that
+                your special moments reflect your personality, style, and dreams. From concept to execution, we handle every aspect so you can focus on enjoying your celebration.
               </p>
             </div>
             <div className="tp-about-md-expreance">
@@ -68,19 +67,19 @@ const About = () => {
                       </svg>
                     </span>
                     <h2 className="tp-ff-familjen ls-m-4 tp-text-common-white">
-                      <span data-purecounter-duration="1" data-purecounter-end="40" className="purecounter">0</span>
+                      <span data-purecounter-duration="1" data-purecounter-end="15" className="purecounter">3+</span>
                     </h2>
                   </div>
                 </div>
                 <div className="col-xxl-5 col-xl-6 col-lg-6 col-md-6">
                   <div className="tp-about-md-expreance-content tp_fade_anim" data-delay=".9">
                     <h4 className="tp-ff-familjen fs-32 lh-110-per ls-m-4 tp-text-common-white mb-20">
-                      Years Working<br /> experience
+                      Years of Creating<br /> Unforgettable Events
                     </h4>
                     <p className="tp-ff-dm fs-18 lh-160-per ls-m-3 tp-text-grey-2 mb-30">
-                      We are committed to delivering high-quality,
-                      compassionate healthcare to every patient
-                      we serve. of experienced doctors.
+                      We are committed to delivering exceptional event experiences,
+                      bringing creativity and excellence to every celebration
+                      we organize. Trusted by clients across Bangalore.
                     </p>
                     <a href="#about" className="tp-btn-md tp-bg-theme-1 tp-left-right p-relative hover-text-white d-inline-block tp-text-grey-5 lh-1 fs-16 fw-700 tp-ff-dm">
                       <span className="mr10 td-text d-inline-block mr-5">Read More</span>
