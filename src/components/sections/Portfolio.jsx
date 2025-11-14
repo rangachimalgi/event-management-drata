@@ -8,9 +8,22 @@ const Portfolio = () => {
   });
 
   const portfolioItems = [
-    { img: 'thumb.jpg', tag: 'Barbiturates', title: 'Epidemiological Insights' },
-    { img: 'thumb-2.jpg', tag: 'Barbiturates', title: 'Patient-Centric Design' },
-    { img: 'thumb-3.jpg', tag: 'Barbiturates', title: 'Immunotherapy Research' }
+    { 
+      img: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=800&h=600&fit=crop', 
+      tag: 'Wedding', 
+      title: 'Elegant Wedding Celebration' 
+    },
+    { 
+      img: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800&h=600&fit=crop', 
+      tag: 'Engagement', 
+      title: 'Romantic Engagement Session' 
+    },
+    { 
+      img: 'https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=800&h=600&fit=crop', 
+      tag: 'Photography', 
+      title: 'Professional Portrait Photography' 
+    },
+  
   ];
 
   return (
@@ -22,7 +35,7 @@ const Portfolio = () => {
               <div key={index} className="tp-portfolio-md-item">
                 <div className="tp-portfolio-md-thumb not-hide-cursor mb-40" data-cursor="View<br>Demo">
                   <a className="cursor-hide" href="#portfolio-details">
-                    <img src={`/assets/img/portfolio/md/${item.img}`} alt="" />
+                    <img src={item.img} alt={item.title} />
                   </a>
                 </div>
                 <div className="tp-portfolio-md-content">
