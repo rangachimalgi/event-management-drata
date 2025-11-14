@@ -9,20 +9,20 @@ const Services = () => {
 
   const services = [
     {
-      title: "Women's Health",
-      description: "Advanced medical expertise with genuine compassion to ensure you receive. experienced doctors, advanced technology."
+      title: "Premium wedding packages",
+      description: "We offer premium wedding packages that are tailored to your unique needs."
     },
     {
-      title: "Paediatric Care",
-      description: "Advanced medical expertise with genuine compassion to ensure you receive. experienced doctors, advanced technology."
+      title: "Premium engagement packages",
+      description: "We offer premium engagement packages that are tailored to your unique needs."
     },
     {
-      title: "Diagnostic Lab Tests",
-      description: "Advanced medical expertise with genuine compassion to ensure you receive. experienced doctors, advanced technology."
+      title: "Premium house warming packages",
+      description: "We offer premium house warming packages that are tailored to your unique needs."
     },
     {
-      title: "Diet Consultation",
-      description: "Advanced medical expertise with genuine compassion to ensure you receive. experienced doctors, advanced technology."
+      title: "Premium baby shower packages",
+      description: "We offer premium baby shower packages that are tailored to your unique needs."
     }
   ];
 
@@ -32,15 +32,14 @@ const Services = () => {
         <div className="row">
           <div className="col-xl-4 col-lg-6 col-md-8">
             <div className="tp-service-md-title-wrap mb-40">
-              <span className="tp-text-revel-anim fix tp-section-md-subtitle tp-ff-dm fw-600 fs-16 ls-m-3 tp-text-common-white d-inline-block">Latest Services</span>
-              <h2 className="tp-text-revel-anim fix tp-section-md-title tp-ff-familjen fs-62 lh-1 ls-m-3 tp-text-common-white mb-20">Services that go beyond treatment</h2>
+              <span className="tp-text-revel-anim fix tp-section-md-subtitle tp-ff-dm fw-600 fs-16 ls-m-3 tp-text-common-white d-inline-block">Premium Services</span>
+              <h2 className="tp-text-revel-anim fix tp-section-md-title tp-ff-familjen fs-62 lh-1 ls-m-3 tp-text-common-white mb-20">Services that go beyond expectations</h2>
               <p className="tp-ff-dm fs-20 lh-150-per ls-m-3 tp-text-common-white opacity-8 mb-50">
-                We combine advanced medical expertise with genuine
-                compassion to ensure you receive.
+                We offer premium services that are tailored to your unique needs and budget.
               </p>
               <div className="tp_fade_anim" data-delay=".9" data-fade-from="bottom" data-ease="bounce">
                 <a href="#services" className="tp-btn-md tp-btn-md-border tp-left-right p-relative hover-text-white d-inline-block tp-text-common-white lh-1 fs-16 fw-800 tp-ff-dm">
-                  <span className="td-text d-inline-block mr-5">All Treatment</span>
+                  <span className="td-text d-inline-block mr-5">Premium Packages</span>
                   <span className="tp-arrow-angle">
                     <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M1 11L12 1M12 1H3.44444M12 1V8.77778" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
