@@ -55,7 +55,7 @@ const Header = ({ onSearchClick, onMenuClick }) => {
             <div className="row align-items-center">
               <div className="col-xxl-2 col-xl-2 col-6">
                 <div className="tp-header-logo">
-                  <a href="/"><img data-width="150" src="/assets/img/logo/logo-white-2.png" alt="logo"></img></a>
+                  <a href="/"><img data-width="150" src="/assets/img/logo/drataLogo.png" alt="Drata Creations"></img></a>
                 </div>
               </div>
               <div className="col-xxl-6 col-xl-7 d-none d-xl-block">
