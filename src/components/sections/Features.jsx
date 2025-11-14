@@ -10,26 +10,26 @@ const Features = () => {
   const features = [
     {
       icon: 'icon.png',
-      title: 'Lab Test Booking',
-      description: 'Combine advanced medical expertise genuine compassion to ensure you receive.',
+      title: 'Wedding Packages',
+      description: 'Wedding packages include everything you need for a perfect wedding day.',
       bgColor: '#f1eeff'
     },
     {
       icon: 'icon-2.png',
-      title: 'Insurance Support',
-      description: 'Combine advanced medical expertise genuine compassion to ensure you receive.',
+      title: 'Engagement Packages',
+      description: 'Engagement packages include everything you need for a perfect engagement day.',
       bgColor: '#ebffe4'
     },
     {
       icon: 'icon-3.png',
-      title: 'Health Blog & Tips',
-      description: 'Combine advanced medical expertise genuine compassion to ensure you receive.',
+      title: 'House Warming Packages',
+      description: 'House warming packages include everything you need for a perfect house warming day.',
       bgColor: '#fff7f3'
     },
     {
       icon: 'icon-4.png',
-      title: 'Insurance Support',
-      description: 'Combine advanced medical expertise genuine compassion to ensure you receive.',
+      title: 'Baby Shower Packages',
+      description: 'Baby shower packages include everything you need for a perfect baby shower day.',
       bgColor: '#e7f3ff'
     }
   ];
