@@ -12,18 +12,18 @@ const FAQ = () => {
   const faqs = [
     {
       id: 'order_one',
-      question: 'What are your clinic hours?',
-      answer: 'Branding is the process of creating a unique identity for your business, <b>including visuals, messaging, and positioning.</b> It helps build trust, recognition.'
+      question: 'How do I book an event?',
+      answer: 'To book an event, please contact us at +91 9999999999 or email us at info@drata.com.'
     },
     {
       id: 'order_two',
-      question: 'Is there a mobile app available?',
-      answer: 'Branding is the process of creating a unique identity for your business, <b>including visuals, messaging, and positioning.</b> It helps build trust, recognition.'
+      question: 'How do i get a quote?',
+      answer: 'To get a quote, please contact us at +91 9999999999 or email us at info@drata.com.'
     },
     {
       id: 'order_three',
-      question: 'What insurance plans do you accept?',
-      answer: 'Branding is the process of creating a unique identity for your business, <b>including visuals, messaging, and positioning.</b> It helps build trust, recognition.'
+      question: 'How do i book house warming?',
+      answer: 'Customize your house warming package by selecting the services you need and we will handle the rest.'
     }
   ];
 
@@ -42,7 +42,7 @@ const FAQ = () => {
           <div className="col-lg-6 mb-30">
             <div className="tp-faq-md-title-wrap mb-30">
               <span className="tp-text-revel-anim fix tp-section-md-subtitle tp-ff-dm fw-600 fs-16 ls-m-3 tp-text-common-white d-inline-block mb-10">Clarity in Every Question</span>
-              <h2 className="tp-text-revel-anim fix tp-section-md-title tp-ff-familjen fs-62 lh-1 ls-m-3 tp-text-common-white mb-20">Your health questions, clearly answered.</h2>
+              <h2 className="tp-text-revel-anim fix tp-section-md-title tp-ff-familjen fs-62 lh-1 ls-m-3 tp-text-common-white mb-20">Your event questions, clearly answered.</h2>
             </div>
             <div className="tp-faq-wrap tp-faq-cst-tab-content tp-faq-md-tab-content mb-40">
               <div className="accordion mb-60" id="general_faqaccordion">
@@ -100,7 +100,11 @@ const FAQ = () => {
                       <div className="atropos-scale">
                         <div className="atropos-rotate">
                           <div className="atropos-inner">
-                            <img data-atropos-offset="-4.5" src="/assets/img/faq/md/thumb-dark.png" alt="" />
+                            <img 
+                              data-atropos-offset="-4.5" 
+                              src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=600&h=600&fit=crop" 
+                              alt="Event planning and celebration" 
+                            />
                           </div>
                         </div>
                       </div>
