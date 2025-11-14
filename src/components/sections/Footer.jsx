@@ -114,7 +114,7 @@ const Footer = () => {
               <div className="col-lg-12">
                 <div className="tp-footer-md-title-wrap lh-1 text-center mt-45 pb-80 tp_fade_anim fix p-relative" data-fade-from="top" data-delay=".7" data-ease="bounce">
                   <h2 className="tp-footer-md-bigtitle tp-ff-familjen ls-m-4 fw-600 tp-text-grey-5">
-                    <a href="/" className="text-scale-anim">Aleric</a>
+                    <a href="/" className="text-scale-anim">Drata</a>
                   </h2>
                   <img className="tp-footer-md-shape upslide" src="/assets/img/footer/md/shape.png" alt="" />
                   <img className="tp-footer-md-shape-2 tp-live-anim-spin" src="/assets/img/footer/md/shape-2.png" alt="" />
