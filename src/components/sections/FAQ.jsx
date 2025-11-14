@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useSectionAnimation } from '../../hooks/useSectionAnimation';
 
 const FAQ = () => {
@@ -7,26 +7,33 @@ const FAQ = () => {
     animateParagraphs: true,
   });
 
+  const [openItems, setOpenItems] = useState(['order_one']); // First item open by default
+
   const faqs = [
     {
       id: 'order_one',
       question: 'What are your clinic hours?',
-      answer: 'Branding is the process of creating a unique identity for your business, <b>including visuals, messaging, and positioning.</b> It helps build trust, recognition.',
-      show: true
+      answer: 'Branding is the process of creating a unique identity for your business, <b>including visuals, messaging, and positioning.</b> It helps build trust, recognition.'
     },
     {
       id: 'order_two',
       question: 'Is there a mobile app available?',
-      answer: 'Branding is the process of creating a unique identity for your business, <b>including visuals, messaging, and positioning.</b> It helps build trust, recognition.',
-      show: false
+      answer: 'Branding is the process of creating a unique identity for your business, <b>including visuals, messaging, and positioning.</b> It helps build trust, recognition.'
     },
     {
       id: 'order_three',
       question: 'What insurance plans do you accept?',
-      answer: 'Branding is the process of creating a unique identity for your business, <b>including visuals, messaging, and positioning.</b> It helps build trust, recognition.',
-      show: false
+      answer: 'Branding is the process of creating a unique identity for your business, <b>including visuals, messaging, and positioning.</b> It helps build trust, recognition.'
     }
   ];
+
+  const toggleItem = (id) => {
+    setOpenItems(prev => 
+      prev.includes(id) 
+        ? prev.filter(itemId => itemId !== id)
+        : [...prev, id]
+    );
+  };
 
   return (
     <div ref={sectionRef} className="tp-faq-area pt-145 pb-70">
@@ -39,33 +46,37 @@ const FAQ = () => {
             </div>
             <div className="tp-faq-wrap tp-faq-cst-tab-content tp-faq-md-tab-content mb-40">
               <div className="accordion mb-60" id="general_faqaccordion">
-                {faqs.map((faq, index) => (
-                  <div key={index} className="accordion-item tp_fade_anim" data-delay=".4">
-                    <h2 className="accordion-header p-relative" id={faq.id}>
-                      <button 
-                        className={`tp-faq-btn ${faq.show ? '' : 'collapsed'}`} 
-                        type="button" 
-                        data-bs-toggle="collapse" 
-                        data-bs-target={`#order__collapse_${faq.id.split('_')[1]}`}
-                        aria-expanded={faq.show}
-                        aria-controls={`order__collapse_${faq.id.split('_')[1]}`}
+                {faqs.map((faq, index) => {
+                  const isOpen = openItems.includes(faq.id);
+                  const collapseId = `order__collapse_${faq.id.split('_')[1]}`;
+                  
+                  return (
+                    <div key={index} className="accordion-item tp_fade_anim" data-delay=".4">
+                      <h2 className="accordion-header p-relative" id={faq.id}>
+                        <button 
+                          className={`tp-faq-btn ${isOpen ? '' : 'collapsed'}`} 
+                          type="button" 
+                          onClick={() => toggleItem(faq.id)}
+                          aria-expanded={isOpen}
+                          aria-controls={collapseId}
+                        >
+                          {faq.question}
+                          <span className="accordion-btn"></span>
+                        </button>
+                      </h2>
+                      <div 
+                        id={collapseId} 
+                        className={`accordion-collapse collapse ${isOpen ? 'show' : ''}`}
+                        aria-labelledby={faq.id}
+                        data-bs-parent="#general_faqaccordion"
                       >
-                        {faq.question}
-                        <span className="accordion-btn"></span>
-                      </button>
-                    </h2>
-                    <div 
-                      id={`order__collapse_${faq.id.split('_')[1]}`} 
-                      className={`accordion-collapse collapse ${faq.show ? 'show' : ''}`}
-                      aria-labelledby={faq.id}
-                      data-bs-parent="#general_faqaccordion"
-                    >
-                      <div className="accordion-body tp-faq-details-para">
-                        <p dangerouslySetInnerHTML={{ __html: faq.answer }}></p>
+                        <div className="accordion-body tp-faq-details-para">
+                          <p dangerouslySetInnerHTML={{ __html: faq.answer }}></p>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
             <div className="tp-faq-md-btn tp_fade_anim" data-delay=".6" data-fade-from="bottom" data-ease="bounce">
